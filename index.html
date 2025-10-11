@@ -9,15 +9,13 @@
       content="Matthew McGrath's web developer portfolio, showcasing various full-stack skills and projects."
     />
     <link rel="icon" type="image/png" href="images/icons/favicon.png" />
-    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Matthew McGrath | Web Developer</title>
   </head>
-  <div>
     <!-- Header / Navigation -->
     <header class="header">
       <nav class="navbar" id="navbar">
-        <a href="#" class="navbar__logo"><img src="images/icons/favicon.png" alt="" /></a>
+        <a href="#" class="navbar__logo" aria-label="Return to top of page"><img src="images/icons/favicon.png" alt="Cartoon avatar of Matthew McGrath" /></a>
         <div class="hamburger">&#9776;</div>
         <div class="navbar__links">
           <ul>
@@ -45,23 +43,15 @@
     <div id="particles-js" class="particles-js"></div>
 
     <!-- My Projects Section -->
-
     <section class="projects" id="projects">
       <h4 class="projects__header">Projects</h4>
       <div class="projects__subheader">
-        <!-- TODO: This seems superfluous -- the "View More" implies this -->
-        <!-- <p>A small selection of my work</p> -->
-        <!-- <a class="projects__more" href="https://github.com/Epitome87" target="_blank" rel="noopener noreferrer"
-          >View More <span>→</span></a
-        > -->
       </div>
       <div class="projects__grid">
-        <!-- TODO: Fill this dynamically with JavaScript and JSON? -->
-
         <!-- PROJECT #1 -->
         <div class="project reveal fade-bottom">
           <div class="project__preview">
-            <img src="images/thumbnails/preview-flat-ui-clone.png" height=400 alt="">
+            <img src="images/thumbnails/preview-flat-ui-clone.webp" height=400 alt="An array of customizable color pallettes against a blue backdrop" loading="lazy">
           </div>
           <div class="project__info">
             <h5 class="project__header">Flat UI Clone</h5>
@@ -72,10 +62,10 @@
             <p class="skills">React, Material UI</p>
             <div class="project__buttons">
               <button>
-                <a href="https://github.com/Epitome87/React-Flat-UI" target="_blank" rel="noopener noreferrer">Code</a>
+                <a href="https://github.com/Epitome87/React-Flat-UI" target="_blank" rel="noopener noreferrer" aria-label="View Flat UI code repository">Code</a>
               </button>
               <button>
-                <a href="https://epitome87.github.io/React-Flat-UI/" target="_blank" rel="noopener noreferrer">Live</a>
+                <a href="https://epitome87.github.io/React-Flat-UI/" target="_blank" rel="noopener noreferrer" aria-label="View Flat UI project website">Live</a>
               </button>
             </div>
           </div>
@@ -85,7 +75,7 @@
         <!-- PROJECT #2 -->
         <div class="project reveal fade-bottom">
           <div class="project__preview">
-            <img src="images/thumbnails/preview-social-proof-section.png" height=400 alt="">
+            <img src="images/thumbnails/preview-frontend-collection.webp" height=400 alt="Preview of a website featuring three testimonials from its customers" loading="lazy">
           </div>
           <div class="project__info">
             <h5 class="project__header">Frontend Collection</h5>
@@ -99,6 +89,7 @@
                   href="https://github.com/Epitome87/front-end-mentor-journey"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="View Frontend Collection code repository"
                   >Code</a
                 >
               </button>
@@ -109,7 +100,7 @@
         <!-- PROJECT #3 -->
         <div class="project reveal fade-bottom"> 
           <div class="project__preview">
-            <img src="images/thumbnails/preview-react-recipes.png" height=400 alt="">
+            <img src="images/thumbnails/preview-react-recipes.webp" height=400 alt="Preview of a meal-planning web app, showcasing a variety of meals and details about them" loading="lazy">
           </div>
           <div class="project__info">
             <h5 class="project__header">Recipe App</h5>
@@ -117,13 +108,14 @@
             <p class="skills">React, Chakra UI, Framer Motion, Storybook, Node, Express</p>
             <div class="project__buttons">
               <button>
-                <a href="https://github.com/Epitome87/React-Recipes" target="_blank" rel="noopener noreferrer">Code</a>
+                <a href="https://github.com/Epitome87/React-Recipes" target="_blank" rel="noopener noreferrer" aria-label="View React Recipe code repository">Code</a>
               </button>
               <button>
                 <a
                   href="https://react-recipes-d136loejp-epitome87.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="View React Recipe project website"
                   >Live</a
                 >
               </button>
@@ -134,7 +126,7 @@
         <!-- PROJECT #4 -->
          <div class="project reveal fade-bottom">
           <div class="project__preview">
-            <img src="images/thumbnails/preview-grave-danger.png" height=400 alt="">
+            <img src="images/thumbnails/preview-grave-danger.webp" height=400 alt="Light-hearted, cartoon zombies approaching the foreground of a graveyard" loading="lazy">
           </div>
           <div class="project__info">
             <h5 class="project__header">Avatars in Grave Danger</h5>
@@ -144,20 +136,19 @@
             <p class="skills">C#, XNA Framework, Blender</p>
             <div class="project__buttons">
               <button>
-                <a href="https://github.com/Epitome87/Avatars-In-Grave-Danger" target="_blank" rel="noopener noreferrer">Code</a>
+                <a href="https://github.com/Epitome87/Avatars-In-Grave-Danger" target="_blank" rel="noopener noreferrer" aria-label="Visit Avatars in Grave Danger code repository">Code</a>
               </button>
               <button>
-                <a href="https://www.youtube.com/watch?v=6DuTH5mqsXY" target="_blank" rel="noopener noreferrer">Footage</a>
+                <a href="https://www.youtube.com/watch?v=6DuTH5mqsXY" target="_blank" rel="noopener noreferrer" aria-label="View gameplay footage of Avatars in Grave Danger project">Footage</a>
               </button>
             </div>
           </div>
          </div>
         
-
         <!-- PROJECT #5 -->
         <div class="project reveal fade-bottom">
           <div class="project__preview">
-            <img src="images/thumbnails/preview-omnifood.png" height=400 alt="">
+            <img src="images/thumbnails/preview-omnifood.webp" height=400 alt="Preview of a healthy food delivery site, showcasing delicious meals" loading="lazy">
           </div>
           <div class="project__info">
             <h5 class="project__header">Omnifood</h5>
@@ -168,10 +159,10 @@
             <p class="skills">HTML, CSS3, JavaScript, SASS</p>
             <div class="project__buttons">
               <button>
-                <a href="https://github.com/Epitome87/Omni-Food" target="_blank" rel="noopener noreferrer">Code</a>
+                <a href="https://github.com/Epitome87/Omni-Food" target="_blank" rel="noopener noreferrer" aria-label="View Omnifood code repository">Code</a>
               </button>
               <button>
-                <a href="https://epitome87.github.io/Omni-Food/" target="_blank" rel="noopener noreferrer">Live</a>
+                <a href="https://epitome87.github.io/Omni-Food/" target="_blank" rel="noopener noreferrer" aria-label="Visit Omnifood project website">Live</a>
               </button>
             </div>
           </div>
@@ -180,7 +171,7 @@
         <!-- PROJECT #6 -->
         <div class="project reveal fade-bottom">
           <div class="project__preview">
-            <img src="images/thumbnails/preview-personal.png" height=400 alt="">
+            <img src="images/thumbnails/preview-personal.webp" height=400 alt="Preview of the current webpage" loading="lazy">
           </div>
           <div class="project__info">
             <h5 class="project__header">Personal Portfolio</h5>
@@ -191,20 +182,18 @@
             <p class="skills">HTML, CSS3, JavaScript, SASS</p>
             <div class="project__buttons">
               <button>
-                <a href="https://github.com/Epitome87/Personal-Portfolio" target="_blank" rel="noopener noreferrer"
+                <a href="https://github.com/Epitome87/Personal-Portfolio" target="_blank" rel="noopener noreferrer" aria-label="View Matthew's personal portfolio code repository"
                   >Code</a
                 >
               </button>
               <button>
-                <a href="https://epitome87.github.io/Personal-Portfolio/">Live</a>
+                <a href="https://epitome87.github.io/Personal-Portfolio/" aria-label="Visit Matthew's personal portfolio website">Live</a>
               </button>
             </div>
           </div>
         </div>
-        
-
       </div>
-      <a class="projects__more" href="https://github.com/Epitome87" target="_blank" rel="noopener noreferrer"
+      <a class="projects__more" href="https://github.com/Epitome87" target="_blank" rel="noopener noreferrer" aria-label="View more of Matthew's projects on his GitHub"
         >View More <span>→</span></a
       >
 
@@ -228,43 +217,42 @@
           <div class="skills__list reveal fade-left">
             <div class="skill">
               <!-- <img src="images/logos/html5.svg" alt="HTML5 Logo" width="50" height="50" /> -->
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML5 Logo" width="50" height="50" />
               <p>HTML5</p>
             </div>
             <div class="skill">
               <!-- <img src="images/logos/css3.svg" alt="CSS3 Logo" width="50" height="50" /> -->
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS3 Logo" width="50" height="50" />
               <p>CSS3</p>
             </div>
             <div class="skill">
               <!-- <img src="images/logos/javascript.svg" alt="JavaScript Logo" width="50" height="50" /> -->
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript Logo" width="50" height="50" />
               <p>JavaScript</p>
             </div>
             <div class="skill">
               <!-- <img src="images/logos/react.svg" alt="React Logo" width="50" height="50" /> -->
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React Logo" width="50" height="50" />
               <p>React</p>
             </div>
             <div class="skill">
               <!-- <img src="images/logos/nextjs.svg" alt="Next.js Logo" width="50" height="50" /> -->
-              <i class="devicon-nextjs-original"></i>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" alt="Next.js Logo" width="50" height="50" />
               <p>Next.js</p>
             </div>
             <div class="skill">
               <!-- <img src="images/logos/sass.svg" alt="Sass Logo" width="50" height="50" /> -->
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg" alt="Sass Logo" width="50" height="50" />
               <p>Sass</p>
             </div>
             <div class="skill">
               <!-- <img src="images/logos/tailwindcss.svg" alt="Tailwind CSS Logo" width="50" height="50" /> -->
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS Logo" width="50" height="50" />
               <p>Tailwind</p>
             </div>
             <div class="skill">
               <!-- <img src="images/logos/storybook-original.svg" alt="Storybook Logo" width="50" height="50" /> -->
-              <!-- <i class="devstorybook-plain colored"></i> -->
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/storybook/storybook-original.svg" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/storybook/storybook-original.svg" alt="Storybook Logo" width="50" height="50" />
               <p>Storybook</p>
             </div>
           </div>
@@ -273,28 +261,27 @@
           <div class="skills__list reveal fade-left">
             <div class="skill">
               <!-- <img src="images/logos/python.svg" alt="Python Logo" width="50" height="50" /> -->
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python Logo" width="50" height="50"  />
               <p>Python</p>
             </div>
             <div class="skill">
               <!-- <img src="images/logos/nodejs.svg" alt="Node.js Logo" width="50" height="50" /> -->
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" alt="Node.js Logo" width="50" height="50" />
               <p>Node.js</p>
             </div>
             <div class="skill">
               <!-- <img src="images/logos/express.svg" alt="Express Logo" width="50" height="50" /> -->
-              <!-- <i class="devexpress-original"></i> -->
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" alt="Express Logo" width="50" height="50" />
               <p>Express</p>
             </div>
             <div class="skill">
               <!-- <img src="images/logos/mongodb.svg" alt="MongoDB Logo" width="50" height="50" /> -->
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" alt="MongoDB Logo" width="50" height="50" />
               <p>MongoDB</p>
             </div>
             <div class="skill">
               <!-- <img src="images/logos/postgresSQL.svg" alt="PostgresSQL Logo" width="50" height="50" /> -->
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" alt="PostgresSQL Logo" width="50" height="50" />
               <p>PostgresSQL</p>
             </div>
           </div>
@@ -303,27 +290,27 @@
           <div class="skills__list reveal fade-left">
             <div class="skill">
               <!-- <img src="images/logos/git.svg" alt="Git Logo" width="50" height="50" /> -->
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git Logo" width="50" height="50" />
               <p>Git</p>
             </div>
             <div class="skill">
               <!-- <img src="images/logos/npm.svg" alt="NPM Logo" width="50" height="50" /> -->
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg" alt="NPM Logo" width="50" height="50" />
               <p>NPM</p>
             </div>
             <div class="skill">
               <!-- <img src="images/logos/postman.svg" alt="Postman Logo" width="50" height="50" /> -->
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" alt="Postman Logo" width="50" height="50" />
               <p>Postman</p>
             </div>
             <div class="skill">
               <!-- <img src="images/logos/vscode.svg" alt="VS Code Logo" width="50" height="50" /> -->
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt="VS Code Logo" width="50" height="50" />
               <p>VS Code</p>
             </div>
             <div class="skill">
               <!-- <img src="images/logos/trello.svg" alt="Trello Logo" width="50" height="50" /> -->
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/trello/trello-original.svg" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/trello/trello-original.svg" alt="Trello Logo" width="50" height="50" />
               <p>Trello</p>
             </div>
           </div>
@@ -332,33 +319,32 @@
           <div class="skills__list reveal fade-left">
             <div class="skill">
               <!-- <img src="images/logos/angular.svg" alt="Angular Logo" width="50" height="50" /> -->
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg" alt="Angular Logo" width="50" height="50" />
               <p>Angular</p>
             </div>
             <div class="skill">
               <!-- <img src="images/logos/typescript.svg" alt="TypeScript Logo" width="50" height="50" /> -->
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="TypeScript Logo" width="50" height="50" />
               <p>TypeScript</p>
             </div>
             <div class="skill">
               <!-- <img src="images/logos/react.svg" alt="React Native Logo" width="50" height="50" /> -->
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactnative/reactnative-original.svg" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactnative/reactnative-original.svg" alt="React Native Logo" width="50" height="50" />
               <p>React Native</p>
             </div>
             <div class="skill">
               <!-- <img src="images/logos/java.svg" alt="Java Logo" width="50" height="50" /> -->
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" alt="Java Logo" width="50" height="50" />
               <p>Java</p>
             </div>
             <div class="skill">
               <!-- <img src="images/logos/chakra.svg" alt="Chakra UI Logo" width="50" height="50" /> -->
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/chakraui/chakraui-original.svg" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/chakraui/chakraui-original.svg" alt="Chakra UI Logo" width="50" height="50" />
               <p>Chakra UI</p>
             </div>
             <div class="skill">
               <!-- <img src="images/logos/threejs.svg" alt="Three.js Logo" width="50" height="50" /> -->
-              <i class="devicon-threejs-original"></i>
-              <!-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/threejs/threejs-original.svg" /> -->
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/threejs/threejs-original.svg" alt="Three.js Logo" width="50" height="50" />
               <p>Three.js</p>
             </div>
           </div>
@@ -477,7 +463,7 @@
         <div class="about__introduction">
           <div class="center reveal bounce-in">
             <figure>
-              <img src="images/icons/matthew-cartoon.png" alt="Matthew McGrath" />
+              <img src="images/icons/matthew-cartoon.png" alt="Matthew McGrath" loading="lazy"/>
             </figure>
           </div>
           <!-- TODO: This wall of text is ugly on mobile -->
@@ -642,7 +628,7 @@
                 d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"
               />
             </svg>
-            <a href="https://www.google.com/maps/place/Redlands,+CA" target="_blank" rel="noopener noreferrer"
+            <a href="https://www.google.com/maps/place/Redlands,+CA" target="_blank" rel="noopener noreferrer" aria-label="View a map of Matthew's city of residence"
               >Redlands, California, USA</a
             >
           </div>
@@ -655,7 +641,7 @@
                 d="M464 64C490.5 64 512 85.49 512 112C512 127.1 504.9 141.3 492.8 150.4L275.2 313.6C263.8 322.1 248.2 322.1 236.8 313.6L19.2 150.4C7.113 141.3 0 127.1 0 112C0 85.49 21.49 64 48 64H464zM217.6 339.2C240.4 356.3 271.6 356.3 294.4 339.2L512 176V384C512 419.3 483.3 448 448 448H64C28.65 448 0 419.3 0 384V176L217.6 339.2z"
               />
             </svg>
-            <a href="mailto:matthew.mcgrath.b@gmail.com">matthew.mcgrath.b@gmail.com</a>
+            <a href="mailto:matthew.mcgrath.b@gmail.com" aria-label="Contact Matthew via email">matthew.mcgrath.b@gmail.com</a>
           </div>
           <div class="contact__detail reveal fade-left">
             <!-- <img src="images/clock-solid.svg" alt="Clock" /> -->
@@ -698,6 +684,7 @@
           rel="noopener noreferrer"
           target="_blank"
           title="Check out my LinkedIn"
+          aria-label="Check out Matthew's LinkedIn"
           ><?xml version="1.0" encoding="iso-8859-1"?>
           <svg viewBox="0 0 310 310" style="enable-background: new 0 0 310 310" xml:space="preserve">
             <g id="XMLID_801_">
@@ -727,7 +714,8 @@
           href="https://github.com/epitome87"
           rel="noopener noreferrer"
           target="_blank"
-          title="See what I'm making on Github"
+          title="See what Matthew is making on GitHub"
+          aria-label="See what Matthew is making on GitHub"
           ><svg viewBox="0 0 24 24" role="img">
             <title>Github icon</title>
             <path
@@ -748,7 +736,8 @@
           href="https://codepen.io/matt-mcgrath-the-bold"
           rel="noopener noreferrer"
           target="_blank"
-          title="Check out my CodePen"
+          title="Check out Matthew's CodePen"
+          aria-label="Check out Matthew's CodePen"
           ><svg viewBox="18 20 82 78" role="img">
             <title>Codepen icon</title>
             <path
@@ -760,7 +749,8 @@
           href="https://leetcode.com/u/epitome87/"
           rel="noopener noreferrer"
           target="_blank"
-          title="Check out my Leetcode"
+          title="Check out Matthew's LeetCode"
+          aria-label="Check out Matthew's LeetCode"
           ><?xml version="1.0" encoding="iso-8859-1"?>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="leetcode">
             <path
@@ -779,7 +769,8 @@
           href="https://www.codewars.com/users/Epitome87"
           rel="noopener noreferrer"
           target="_blank"
-          title="Check out my Codewars"
+          title="Check out Matthew's Codewars"
+          aria-label="Check out Matthew's Codewars"
           ><?xml version="1.0" encoding="iso-8859-1"?>
           <svg
             width="64px"
