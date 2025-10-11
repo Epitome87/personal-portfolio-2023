@@ -119,7 +119,8 @@ section {
   }
 }
 
-button {
+button,
+.btn {
   align-self: flex-start;
   font-family: inherit;
   font-size: $font-size-body;
